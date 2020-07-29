@@ -8,7 +8,7 @@ import DashboardProfile from './dashboard-profile-view'
 const Home = () => {
   return (
     <div>
-      <Route path="/dashboard/*">
+      <Route path="/dashboard*">
         <Header />
       </Route>
       <div className="flex items-center justify-center h-screen">
