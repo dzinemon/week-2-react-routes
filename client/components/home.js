@@ -20,7 +20,7 @@ const Home = () => {
             <Route path="/dashboard/main">
               <DashboardMain />
             </Route>
-            <Route path="/dashboard/">
+            <Route path="/dashboard">
               <DashboardView />
             </Route>
           </Switch>
